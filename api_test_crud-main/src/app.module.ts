@@ -7,7 +7,7 @@ import { AlunoModule } from './alunos/shared/alunos.module';
 @Module({
   imports: [
     MongooseModule.forRoot(
-      'mongodb+srv://andry:CnTrFR7gkqguDJ5S@cluster0.vtwo9ta.mongodb.net/alunos?retryWrites=true&w=majority',
+      'mongodb://localhost:27017/alunos',
     ),
     AlunoModule,
   ],
